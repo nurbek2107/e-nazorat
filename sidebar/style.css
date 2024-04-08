@@ -104,3 +104,9 @@ gap: 10px;
 .canvasjs-chart-credit{
     display: none !important;
 }
+
+.aside{
+    display: grid;
+    grid-template-rows: auto;
+    column-gap: 20px;
+}
