@@ -26,7 +26,9 @@ header{
     width: 100%;
     background-color: #616161;
 }
-
+header .logo{
+    text-align: center;
+}
 .sidebar{
     background-color: #616161;
         display: grid;
