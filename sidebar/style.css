@@ -1,6 +1,112 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-condensed-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/roboto-condensed-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body{
+
+    background: #ebebeb;
+}
+.wrapper{
+    display: flex;
+}
+header{
+    width: 100%;
+    background-color: #616161;
+}
+header .logo{
+    text-align: center;
+}
+.sidebar{
+    background-color: #616161;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns:  auto;
+        cursor: pointer;
+        min-height: 100vh;
+        border-radius: 0px 0px 20px 0px;
+} 
+
+
+.menus_menu{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    margin: 25px  40px;
+    min-height: calc(80vh);
+    gap: 12px;
+}
+.menus_menu a{
+text-decoration: none;
+padding: 15px;
+color: #ffffff;
+font-family: 'Roboto';
+display: flex;
+align-items: center;
+border-radius: 10px;
+transition: all .3s ease;
+gap: 10px;
+}
+.menus_menu a:hover{
+    background-color: #07bc0d48; 
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .canvasjs-chart-toolbar{
     display: none !important;
 }
 .canvasjs-chart-credit{
     display: none !important;
+}
+
+.aside{
+    display: grid;
+    grid-template-rows: auto;
+    column-gap: 20px;
 }
