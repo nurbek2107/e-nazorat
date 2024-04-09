@@ -1,7 +1,7 @@
 window.onload = function() {
 
 var chart = new CanvasJS.Chart("chartContainer", {
-	theme: "dark2", // "light1", "light2", "dark1", "dark2"
+	theme: "light1", // "light1", "light2", "dark1", "dark2"
 	exportEnabled: true,
 	backgroundColor:"",
 	animationEnabled: true,

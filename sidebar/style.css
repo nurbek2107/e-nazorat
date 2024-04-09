@@ -28,6 +28,7 @@ header{
 }
 header .logo{
     text-align: center;
+    padding: 20px 0px;
 }
 .sidebar{
     background-color: #616161;
