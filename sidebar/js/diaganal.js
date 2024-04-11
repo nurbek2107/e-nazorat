@@ -1,6 +1,6 @@
 window.onload = function() {
 
-var chart = new CanvasJS.Chart("chartContainer", {
+let chart = new CanvasJS.Chart("chartContainer", {
 	theme: "light1", // "light1", "light2", "dark1", "dark2"
 	exportEnabled: true,
 	backgroundColor:"",
@@ -24,6 +24,4 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	}]
 });
 chart.render();
-
 }
-				
