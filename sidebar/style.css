@@ -45,7 +45,7 @@ header .logo img {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-    margin: 25px  40px;
+    margin: 5px  40px;
     min-height: calc(80vh);
     gap: 12px;
 }
@@ -73,12 +73,14 @@ margin-left: 850px;
 }
 
 main{
-    width: calc(100vw - 200px);
-        background-color: rgb(238, 242, 246);
-        flex: 1 1 0%;
-        min-height: calc(100vh - 0px);
-        border-top-left-radius: 15px;
-        overflow-x: auto;
+width: calc(100vw - 200px);
+    padding: 20px;
+    background-color: rgb(238, 242, 246);
+    flex: 1 1 0%;
+    min-height: calc(100vh - 70px);
+    margin-top: 15px;
+    border-top-left-radius: 6px;
+    overflow-x: auto;
 }
 
 
