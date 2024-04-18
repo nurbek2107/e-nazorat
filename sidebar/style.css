@@ -79,7 +79,7 @@ header .logo img {
 }
 .menus_menu a:nth-child(1){
         border: 2px solid #07bc0d48;
-            color: #07bc0d;
+        color: #07bc0d;
 }
 .menus_menu a:hover {
     border:2px solid #07bc0d48;
@@ -87,12 +87,10 @@ header .logo img {
 }
 
 
-.main_card_right {
-    margin-left: 850px;
-}
+
 
 main {
-    width: calc(100vw - 200px);
+    /* width: calc(100vw - 200px); */
     padding: 20px;
     background-color: rgb(238, 242, 246);
     flex: 1 1 0%;
@@ -104,17 +102,14 @@ main {
 }
 
 
-
-
-
-canvas {
-    display: block;
-    max-width: 800px;
-    margin: 60px auto;
+#chartContainer{
+    width: 450px;
+margin-left: 0px;
 }
-
-
-
+.diaganal span{
+    font-size: 20px;
+    text-align: center;
+}
 .languard {
             margin-top: 5px;
             cursor: pointer;
@@ -124,8 +119,9 @@ canvas {
             border-radius: 75px;
 }
 .languard span{
-    font-family: 'Roboto Condensed';
-    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
     color: #c3c3c3;
     text-align: center;
     transition: all .3s ease;
@@ -140,10 +136,9 @@ canvas {
 
 
 
-
-
-
-
+.main{
+    display: flex;
+}
 
 
 
