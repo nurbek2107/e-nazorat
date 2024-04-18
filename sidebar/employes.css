@@ -1,0 +1,85 @@
+main {
+    width: 1111px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main h4 {
+    margin-bottom: 15px;
+}
+
+main .categorySort {
+    display: flex;
+    padding-left: 15px;
+}
+
+main .categorySort div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .categorySort div label {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+main .categorySort div:nth-child(1) {
+    margin-right: 200px;
+}
+
+main .categorySort .sort {
+    width: 220px;
+    padding: 12px 15px;
+    border-radius: 15px;
+    border: 0.5px solid #262626;
+    background-color: #E6E6E6;
+}
+
+main .categorySort .sort select {
+    border: none;
+    color: #C91416;
+    background-color: transparent;
+}
+
+main .categorySort .sortInput {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    padding: 10px;
+}
+
+main .categorySort .sortInput input {
+    width: 220px;
+    border: none;
+    background-color: transparent;
+    color: #C91416;
+}
+
+main .categorySort .sortInput input:focus {
+    outline: none;
+}
+
+main table {
+    width: 100%;
+}
+
+main table tr:hover {
+    cursor: pointer;
+}
+
+main table thead tr th, td {
+    padding-top: 16px;
+    padding-bottom: 16px;   
+    border-bottom: 1px solid #dbd7d7
+}
+
+main table a {
+    color: #191919;
+}
+
+main table a:hover {
+    color: #8c8989;
+}

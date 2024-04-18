@@ -21,7 +21,10 @@
 }
 
 body {
+    background: #ebebeb;
+=======
     background-color: #616161 !important;
+
 }
 
 .wrapper {
@@ -32,6 +35,8 @@ header {
     width: 100%;
 
 }
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -47,6 +52,16 @@ header .logo img {
 }
 
 .sidebar {
+    background-color: #616161;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    cursor: pointer;
+    min-height: 100vh;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.sidebar {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
@@ -54,11 +69,32 @@ header .logo img {
     border-radius: 0px 0px 20px 0px;
 }
 
-
 .menus_menu {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
+
+    margin: 25px 40px;
+    min-height: calc(80vh);
+    gap: 12px;
+}
+
+.menus_menu a {
+    text-decoration: none;
+    padding: 15px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: all .3s ease;
+    gap: 10px;
+}
+
+.menus_menu a:hover {
+    background-color: #07bc0d48;
+    color: #ffffff;
+=======
     margin: 5px 40px;
     min-height: calc(80vh);
     gap: 12px;
@@ -141,23 +177,9 @@ margin-left: 0px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.main_card_right {
+    margin-left: 850px;
+}
 
 
 .canvasjs-chart-toolbar {
@@ -174,6 +196,15 @@ margin-left: 0px;
     column-gap: 20px;
 }
 
+
+aside {
+    width: 331px;
+    /* height: 100vh; */
+}
+
+main {
+    padding: 20px;
+=======
 #bar-chart-grouped {
     width: 100% !important;
     height: 100% !important;
