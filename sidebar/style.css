@@ -16,27 +16,27 @@
   }
 
 body{
-
-    background: #ebebeb;
+    background-color: #616161;
 }
 .wrapper{
     display: flex;
 }
 header{
     width: 100%;
-    background-color: #616161;
+
 }
 header .logo{
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
+}
+header .logo img {
+    width: 150px;
 }
 .sidebar{
-    background-color: #616161;
         display: grid;
         grid-template-rows: auto;
         grid-template-columns:  auto;
         cursor: pointer;
-        min-height: 100vh;
         border-radius: 0px 0px 20px 0px;
 } 
 
@@ -51,13 +51,15 @@ header .logo{
 }
 .menus_menu a{
 text-decoration: none;
-padding: 15px;
+padding: 12px;
 color: #ffffff;
 font-family: 'Roboto';
 display: flex;
+font-size: 14px;
 align-items: center;
 border-radius: 10px;
 transition: all .3s ease;
+
 gap: 10px;
 }
 .menus_menu a:hover{
@@ -70,7 +72,14 @@ gap: 10px;
 margin-left: 850px;
 }
 
-
+main{
+    width: calc(100vw - 200px);
+        background-color: rgb(238, 242, 246);
+        flex: 1 1 0%;
+        min-height: calc(100vh - 0px);
+        border-top-left-radius: 15px;
+        overflow-x: auto;
+}
 
 
 
