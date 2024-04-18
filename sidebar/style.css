@@ -1,86 +1,108 @@
 /* roboto-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* roboto-condensed-700 - latin */
+    src: url('/fonts/roboto-v30-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-condensed-700 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
-    src: url('/fonts/roboto-condensed-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-
-body{
-    background-color: #616161;
+    src: url('/fonts/roboto-condensed-v27-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-.wrapper{
+
+body {
+    background-color: #616161 !important;
+}
+
+.wrapper {
     display: flex;
 }
-header{
+
+header {
     width: 100%;
 
 }
-header .logo{
+
+header .logo {
     text-align: center;
     padding: 10px 0px;
 }
+
 header .logo img {
     width: 150px;
 }
-.sidebar{
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns:  auto;
-        cursor: pointer;
-        border-radius: 0px 0px 20px 0px;
-} 
+
+.sidebar {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    cursor: pointer;
+    border-radius: 0px 0px 20px 0px;
+}
 
 
-.menus_menu{
+.menus_menu {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-    margin: 5px  40px;
+    margin: 5px 40px;
     min-height: calc(80vh);
     gap: 12px;
 }
-.menus_menu a{
-text-decoration: none;
-padding: 12px;
-color: #ffffff;
-font-family: 'Roboto';
-display: flex;
-font-size: 14px;
-align-items: center;
-border-radius: 10px;
-transition: all .3s ease;
 
-gap: 10px;
+.menus_menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 10px;
+    transition: all .3s ease;
+
+    gap: 10px;
 }
-.menus_menu a:hover{
-    background-color: #07bc0d48; 
+
+.menus_menu a:hover {
+    background-color: #07bc0d48;
     color: #ffffff;
 }
 
 
-.main_card_right{
-margin-left: 850px;
+.main_card_right {
+    margin-left: 850px;
 }
 
-main{
-width: calc(100vw - 200px);
+main {
+    width: calc(100vw - 200px);
     padding: 20px;
     background-color: rgb(238, 242, 246);
     flex: 1 1 0%;
     min-height: calc(100vh - 70px);
     margin-top: 15px;
     border-top-left-radius: 6px;
-    overflow-x: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+canvas {
+    display: block;
+    max-width: 800px;
+    margin: 60px auto;
 }
 
 
@@ -95,23 +117,21 @@ width: calc(100vw - 200px);
 
 
 
-
-
-
-
-
-
-
-
-.canvasjs-chart-toolbar{
+.canvasjs-chart-toolbar {
     display: none !important;
 }
-.canvasjs-chart-credit{
+
+.canvasjs-chart-credit {
     display: none !important;
 }
 
-.aside{
+.aside {
     display: grid;
     grid-template-rows: auto;
     column-gap: 20px;
+}
+
+#bar-chart-grouped {
+    width: 100% !important;
+    height: 100% !important;
 }
