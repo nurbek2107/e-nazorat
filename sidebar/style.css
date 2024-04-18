@@ -22,7 +22,6 @@
 
 body {
     background: #ebebeb;
-=======
     background-color: #616161 !important;
 
 }
@@ -94,7 +93,6 @@ header .logo img {
 .menus_menu a:hover {
     background-color: #07bc0d48;
     color: #ffffff;
-=======
     margin: 5px 40px;
     min-height: calc(80vh);
     gap: 12px;
@@ -204,7 +202,7 @@ aside {
 
 main {
     padding: 20px;
-=======
+}
 #bar-chart-grouped {
     width: 100% !important;
     height: 100% !important;
