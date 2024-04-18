@@ -30,12 +30,15 @@ body {
 
 header {
     width: 100%;
-    background-color: #616161;
+
 }
 
 header .logo {
     text-align: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
+}
+header .logo img {
+    width: 150px;
 }
 
 .sidebar {
