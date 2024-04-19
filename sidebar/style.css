@@ -23,32 +23,40 @@
 body {
     background-color: #616161 !important;
 }
+
 .wrapper {
     display: flex;
 }
+
 header {
     width: 100%;
 
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header .logo {
     text-align: center;
     padding: 10px 0px;
 }
+
 header .logo img {
     width: 150px;
 }
+
 .sidebar {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
     cursor: pointer;
     border-radius: 0px 0px 20px 0px;
+   
 }
+
 .menus_menu {
     display: flex;
     flex-direction: column;
@@ -57,6 +65,7 @@ header .logo img {
     min-height: calc(80vh);
     gap: 12px;
 }
+
 .menus_menu a {
     text-decoration: none;
     padding: 12px;
@@ -70,10 +79,12 @@ header .logo img {
     border: 2px solid #07bc0d00;
     gap: 10px;
 }
+
 .menus_menu a:nth-child(1) {
     border: 2px solid #07bc0d48;
     color: #07bc0d;
 }
+
 .menus_menu a:hover {
     border: 2px solid #07bc0d48;
     color: #07bc0d;
@@ -95,10 +106,12 @@ main {
     width: 450px;
     margin-left: 0px;
 }
+
 .diaganal span {
     font-size: 20px;
     text-align: center;
 }
+
 .languard {
     margin-top: 5px;
     cursor: pointer;
@@ -107,6 +120,7 @@ main {
     padding: 10px 10px;
     border-radius: 75px;
 }
+
 .languard span {
     font-family: 'Roboto';
     font-weight: 400;
@@ -115,9 +129,11 @@ main {
     text-align: center;
     transition: all .3s ease;
 }
+
 .languard span:nth-child(1) {
     color: #ffffff;
 }
+
 .languard span:hover {
     color: #ffffff;
 }
@@ -125,6 +141,7 @@ main {
 .main {
     display: flex;
 }
+
 .canvasjs-chart-toolbar {
     display: none !important;
 }

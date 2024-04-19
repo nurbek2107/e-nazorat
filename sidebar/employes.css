@@ -30,7 +30,6 @@ body {
 
 header {
     width: 100%;
-
 }
 
 nav {
@@ -54,6 +53,7 @@ header .logo img {
     grid-template-columns: auto;
     cursor: pointer;
     border-radius: 0px 0px 20px 0px;
+    position: relative;
 }
 
 
