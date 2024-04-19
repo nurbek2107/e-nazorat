@@ -23,61 +23,58 @@
 body {
     background-color: #616161 !important;
 }
+
 .wrapper {
     display: flex;
 }
+
 header {
     width: 100%;
-
+    position: fixed;
+    top: 0;
+    background-color: #616161;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header .logo {
     text-align: center;
     padding: 10px 0px;
 }
+
 header .logo img {
     width: 150px;
 }
+
 .sidebar {
+    height: 100vh;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto;
     cursor: pointer;
     border-radius: 0px 0px 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 75px;
 }
+
 .menus_menu {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-
-    margin: 25px 40px;
-    min-height: calc(80vh);
-    gap: 12px;
-}
-
-.menus_menu a {
-    text-decoration: none;
-    padding: 15px;
-    color: #ffffff;
-    font-family: 'Roboto';
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    transition: all .3s ease;
-    gap: 10px;
-}
-
-.menus_menu a:hover {
-    background-color: #07bc0d48;
-    color: #ffffff;
     margin: 5px 40px;
     min-height: calc(80vh);
     gap: 12px;
 }
+
 .menus_menu a {
     text-decoration: none;
     padding: 12px;
@@ -91,24 +88,28 @@ header .logo img {
     border: 2px solid #07bc0d00;
     gap: 10px;
 }
+
 .menus_menu a:nth-child(1) {
     border: 2px solid #07bc0d48;
     color: #07bc0d;
 }
+
 .menus_menu a:hover {
     border: 2px solid #07bc0d48;
     color: #07bc0d;
 }
 
 main {
-    /* width: calc(100vw - 200px); */
+    margin-left: 250px;
+    margin-top: 70px !important;
+    position: relative;
+    z-index: -10;
     padding: 20px;
     background-color: rgb(238, 242, 246);
     flex: 1 1 0%;
     min-height: calc(100vh - 70px);
     margin-top: 15px;
     border-top-left-radius: 6px;
-    overflow: hidden;
     box-shadow: 16px 16px 15px -15px rgba(0, 0, 0, 0.75) inset;
 }
 
@@ -116,10 +117,12 @@ main {
     width: 450px;
     margin-left: 0px;
 }
+
 .diaganal span {
     font-size: 20px;
     text-align: center;
 }
+
 .languard {
     margin-top: 5px;
     cursor: pointer;
@@ -128,6 +131,7 @@ main {
     padding: 10px 10px;
     border-radius: 75px;
 }
+
 .languard span {
     font-family: 'Roboto';
     font-weight: 400;
@@ -136,9 +140,11 @@ main {
     text-align: center;
     transition: all .3s ease;
 }
+
 .languard span:nth-child(1) {
     color: #ffffff;
 }
+
 .languard span:hover {
     color: #ffffff;
 }
@@ -146,6 +152,7 @@ main {
 .main {
     display: flex;
 }
+
 .canvasjs-chart-toolbar {
     display: none !important;
 }
@@ -160,15 +167,6 @@ main {
     column-gap: 20px;
 }
 
-
-aside {
-    width: 331px;
-    /* height: 100vh; */
-}
-
-main {
-    padding: 20px;
-}
 #bar-chart-grouped {
     width: 100% !important;
     height: 100% !important;
