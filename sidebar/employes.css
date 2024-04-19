@@ -30,6 +30,7 @@ body {
 
 header {
     width: 100%;
+
 }
 
 nav {
@@ -53,7 +54,6 @@ header .logo img {
     grid-template-columns: auto;
     cursor: pointer;
     border-radius: 0px 0px 20px 0px;
-    position: relative;
 }
 
 
@@ -190,9 +190,11 @@ main .categorySort .sortInput input {
     background-color: transparent;
     color: #616161;
 }
+
 .sort select:focus {
     outline: none !important;
 }
+
 main .categorySort .sortInput input:focus {
     outline: none;
 }
@@ -205,9 +207,10 @@ main table tr:hover {
     cursor: pointer;
 }
 
-main table thead tr th, td {
+main table thead tr th,
+td {
     padding-top: 16px;
-    padding-bottom: 16px;   
+    padding-bottom: 16px;
     border-bottom: 1px solid #dbd7d7
 }
 
@@ -219,4 +222,3 @@ main table a {
 main table a:hover {
     color: #616161;
 }
-
