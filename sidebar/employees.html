@@ -10,17 +10,24 @@
   <link rel="stylesheet" href="normalize.css" />
   <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="glabal.css">
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="./employes.css">
 </head>
 
 <body>
   <header>
-    <div class="logo">
-      <a href="#">
-        <img src="static/svg/Logo.svg" alt="logo">
-      </a>
-    </div>
+    <nav>
+      <div></div>
+      <div class="logo">
+        <a href="#">
+          <img src="static/svg/Logo.svg" alt="logo">
+        </a>
+      </div>
+      <div class="languard">
+        <span id="uzb">Uzb</span>
+        <span id="rus">Rus</span>
+        <span id="eng">Eng</span>
+      </div>
+    </nav>
   </header>
   <div class="wrapper">
     <aside>
@@ -58,7 +65,7 @@
           <label for="employess">Employess</label>
           <div class="sort sortInput">
             <label for="employess">
-              <img width="20" src="./static/svg/Vector.svg" alt="seach icon">
+              <img width="20" src="./static/svg/Vector.svg"  alt="seach icon">
             </label>
             <input id="employess" type="text">
           </div>
@@ -230,7 +237,6 @@
       </table>
     </main>
   </div>
-  <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
 </body>
 
 </html>
