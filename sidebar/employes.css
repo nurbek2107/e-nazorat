@@ -1,3 +1,136 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/roboto-v30-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-condensed-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/roboto-condensed-v27-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    background-color: #616161 !important;
+}
+
+.wrapper {
+    display: flex;
+}
+
+header {
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    cursor: pointer;
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+.menus_menu {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    margin: 5px 40px;
+    min-height: calc(80vh);
+    gap: 12px;
+}
+
+.menus_menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 10px;
+    transition: all .3s ease;
+    border: 2px solid #07bc0d00;
+    gap: 10px;
+}
+
+.menus_menu a:nth-child(2) {
+    border: 2px solid #07bc0d48;
+    color: #07bc0d;
+}
+
+.menus_menu a:hover {
+    border: 2px solid #07bc0d48;
+    color: #07bc0d;
+}
+
+
+
+
+main {
+    /* width: calc(100vw - 200px); */
+    padding: 20px;
+    background-color: rgb(238, 242, 246);
+    flex: 1 1 0%;
+    min-height: calc(100vh - 70px);
+    margin-top: 15px;
+    border-top-left-radius: 6px;
+    overflow: hidden;
+    box-shadow: 16px 16px 15px -15px rgba(0, 0, 0, 0.75) inset;
+}
+
+.languard {
+    margin-top: 5px;
+    cursor: pointer;
+    gap: 10px;
+    border: 2px solid #049c4c;
+    padding: 10px 10px;
+    border-radius: 75px;
+}
+
+.languard span {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #c3c3c3;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.languard span:nth-child(1) {
+    color: #ffffff;
+}
+
+.languard span:hover {
+    color: #ffffff;
+}
+
 main {
     width: 1111px;
 }
@@ -34,13 +167,13 @@ main .categorySort .sort {
     width: 220px;
     padding: 12px 15px;
     border-radius: 15px;
-    border: 0.5px solid #262626;
+    border: 0.5px solid #049c4c;
     background-color: #E6E6E6;
 }
 
 main .categorySort .sort select {
     border: none;
-    color: #C91416;
+    color: #616161;
     background-color: transparent;
 }
 
@@ -55,9 +188,11 @@ main .categorySort .sortInput input {
     width: 220px;
     border: none;
     background-color: transparent;
-    color: #C91416;
+    color: #616161;
 }
-
+.sort select:focus {
+    outline: none !important;
+}
 main .categorySort .sortInput input:focus {
     outline: none;
 }
@@ -78,8 +213,10 @@ main table thead tr th, td {
 
 main table a {
     color: #191919;
+    transition: all .3s ease;
 }
 
 main table a:hover {
-    color: #8c8989;
+    color: #616161;
 }
+
