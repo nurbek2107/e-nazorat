@@ -30,6 +30,12 @@ body {
 
 header {
     width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #616161;
+        z-index: 10;
+        padding-top: 10px;
+        padding-bottom: 10px;
 
 }
 
@@ -49,11 +55,16 @@ header .logo img {
 }
 
 .sidebar {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    cursor: pointer;
-    border-radius: 0px 0px 20px 0px;
+    height: 100vh;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        cursor: pointer;
+        border-radius: 0px 0px 20px 0px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 75px;
 }
 
 
@@ -94,15 +105,15 @@ header .logo img {
 
 
 main {
-    /* width: calc(100vw - 200px); */
-    padding: 20px;
-    background-color: rgb(238, 242, 246);
-    flex: 1 1 0%;
-    min-height: calc(100vh - 70px);
-    margin-top: 15px;
-    border-top-left-radius: 6px;
-    overflow: hidden;
-    box-shadow: 16px 16px 15px -15px rgba(0, 0, 0, 0.75) inset;
+    margin-left: 250px;
+        margin-top: 90px !important;
+        position: relative;
+        padding: 20px;
+        background-color: rgb(238, 242, 246);
+        flex: 1 1 0%;
+        min-height: calc(100vh - 70px);
+        border-top-left-radius: 6px;
+        box-shadow: 16px 16px 15px -15px rgba(0, 0, 0, 0.75) inset;
 }
 
 .languard {
