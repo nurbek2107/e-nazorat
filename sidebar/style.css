@@ -153,9 +153,9 @@ main {
     justify-content: space-around;
 }
 #bar-chart-horizontal{
-    margin-top: 100px !important;
-    width: 500px !important;
-    height: 250px !important;
+    margin-top: 50px !important;
+    width: 700px !important;
+    height: 350px !important;
 }
 
 .canvasjs-chart-toolbar {
