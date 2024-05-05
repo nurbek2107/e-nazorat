@@ -16,7 +16,7 @@ let chart = new CanvasJS.Chart("chartContainer", {
 		indexLabel: " {y}%",
 		dataPoints: [
 			{ y: 50, label: "1 Guardian" },
-			{ y: 5, label: "2 Guardians" },
+			{ y: 5, label: "2 Guardians" }, 	          	 	 
 			{ y: 20, label: "3 Guardians" },
 			{ y: 25, label: "3+ Guardians" },
 
@@ -25,4 +25,6 @@ let chart = new CanvasJS.Chart("chartContainer", {
 });
 chart.render();
 }
+
+
 
