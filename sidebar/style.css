@@ -149,12 +149,13 @@ main {
 
 .main {
     display: flex;
-    /* width: 100%; */
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 #bar-chart-horizontal{
-    width: 900px !important;
-    height: 450px !important;
+    margin-top: 100px !important;
+    width: 500px !important;
+    height: 250px !important;
 }
 
 .canvasjs-chart-toolbar {

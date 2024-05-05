@@ -59,7 +59,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
             {
                 label: "Population (millions)",
                 backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#c45850"],
-                data: [2478, 5267, 734, 784, 433]
+                data: [2478, 5267, 734, 784]
             }
         ]
     },
