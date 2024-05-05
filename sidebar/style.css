@@ -179,3 +179,8 @@ main {
 #column_chart{
     margin-bottom: 105px !important;
 }
+@media screen and (max-width: 1447px) {
+    #bar-chart-horizontal {
+            margin-top: 550px !important;
+        }
+}
